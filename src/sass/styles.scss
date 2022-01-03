@@ -1,0 +1,17 @@
+@import "fonts";
+
+html {
+    font-family: Roboto;
+}
+
+.skeleton {
+    @apply grid gap-2 animate-pulse;
+
+    &__circle {
+        @apply bg-gray-400 rounded-full h-[50px] w-[50px] ;
+    }
+
+    &__block {
+        @apply bg-gray-400 rounded-md h-[20px] w-full;
+    }
+}
